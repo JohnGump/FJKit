@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2E81FC861C5B9C4000387A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FC851C5B9C4000387A8B /* main.m */; };
-		2E81FC891C5B9C4000387A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FC881C5B9C4000387A8B /* AppDelegate.m */; };
-		2E81FC8C1C5B9C4000387A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FC8B1C5B9C4000387A8B /* ViewController.m */; };
 		2E81FC8F1C5B9C4000387A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E81FC8D1C5B9C4000387A8B /* Main.storyboard */; };
 		2E81FC911C5B9C4000387A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E81FC901C5B9C4000387A8B /* Assets.xcassets */; };
 		2E81FC941C5B9C4000387A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E81FC921C5B9C4000387A8B /* LaunchScreen.storyboard */; };
 		2E81FC9F1C5B9C4000387A8B /* FJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FC9E1C5B9C4000387A8B /* FJKitTests.m */; };
 		2E81FCAA1C5B9C4000387A8B /* FJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FCA91C5B9C4000387A8B /* FJKitUITests.m */; };
+		2E81FCC01C5B9E6C00387A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FCBB1C5B9E6C00387A8B /* ViewController.m */; };
+		2E81FCC11C5B9E6C00387A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FCBE1C5B9E6C00387A8B /* AppDelegate.m */; };
+		2E81FCCD1C5BA05500387A8B /* UINavigationItem+flexible.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FCCC1C5BA05500387A8B /* UINavigationItem+flexible.m */; };
+		2E81FCD01C5BA0AD00387A8B /* FJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81FCCF1C5BA0AD00387A8B /* FJColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,6 @@
 /* Begin PBXFileReference section */
 		2E81FC811C5B9C4000387A8B /* FJKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E81FC851C5B9C4000387A8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2E81FC871C5B9C4000387A8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2E81FC881C5B9C4000387A8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2E81FC8A1C5B9C4000387A8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2E81FC8B1C5B9C4000387A8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2E81FC8E1C5B9C4000387A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E81FC901C5B9C4000387A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E81FC931C5B9C4000387A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,14 @@
 		2E81FCA51C5B9C4000387A8B /* FJKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E81FCA91C5B9C4000387A8B /* FJKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FJKitUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2E81FCAB1C5B9C4000387A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E81FCBA1C5B9E6C00387A8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E81FCBB1C5B9E6C00387A8B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E81FCBD1C5B9E6C00387A8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E81FCBE1C5B9E6C00387A8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E81FCCB1C5BA05500387A8B /* UINavigationItem+flexible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+flexible.h"; sourceTree = "<group>"; };
+		2E81FCCC1C5BA05500387A8B /* UINavigationItem+flexible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+flexible.m"; sourceTree = "<group>"; };
+		2E81FCCE1C5BA0AD00387A8B /* FJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJColor.h; sourceTree = "<group>"; };
+		2E81FCCF1C5BA0AD00387A8B /* FJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,7 @@
 		2E81FC831C5B9C4000387A8B /* FJKit */ = {
 			isa = PBXGroup;
 			children = (
-				2E81FC871C5B9C4000387A8B /* AppDelegate.h */,
-				2E81FC881C5B9C4000387A8B /* AppDelegate.m */,
-				2E81FC8A1C5B9C4000387A8B /* ViewController.h */,
-				2E81FC8B1C5B9C4000387A8B /* ViewController.m */,
+				2E81FCB71C5B9E6C00387A8B /* Classes */,
 				2E81FC8D1C5B9C4000387A8B /* Main.storyboard */,
 				2E81FC901C5B9C4000387A8B /* Assets.xcassets */,
 				2E81FC921C5B9C4000387A8B /* LaunchScreen.storyboard */,
@@ -138,6 +141,77 @@
 				2E81FCAB1C5B9C4000387A8B /* Info.plist */,
 			);
 			path = FJKitUITests;
+			sourceTree = "<group>";
+		};
+		2E81FCB71C5B9E6C00387A8B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCB81C5B9E6C00387A8B /* Category */,
+				2E81FCB91C5B9E6C00387A8B /* Index */,
+				2E81FCBC1C5B9E6C00387A8B /* Other */,
+				2E81FCBF1C5B9E6C00387A8B /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E81FCB81C5B9E6C00387A8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCC81C5BA05500387A8B /* UIButton */,
+				2E81FCC91C5BA05500387A8B /* UIColor */,
+				2E81FCCA1C5BA05500387A8B /* UINavigationItem */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2E81FCB91C5B9E6C00387A8B /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCBA1C5B9E6C00387A8B /* ViewController.h */,
+				2E81FCBB1C5B9E6C00387A8B /* ViewController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		2E81FCBC1C5B9E6C00387A8B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCBD1C5B9E6C00387A8B /* AppDelegate.h */,
+				2E81FCBE1C5B9E6C00387A8B /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E81FCBF1C5B9E6C00387A8B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2E81FCC81C5BA05500387A8B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		2E81FCC91C5BA05500387A8B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCCE1C5BA0AD00387A8B /* FJColor.h */,
+				2E81FCCF1C5BA0AD00387A8B /* FJColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		2E81FCCA1C5BA05500387A8B /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				2E81FCCB1C5BA05500387A8B /* UINavigationItem+flexible.h */,
+				2E81FCCC1C5BA05500387A8B /* UINavigationItem+flexible.m */,
+			);
+			path = UINavigationItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E81FC8C1C5B9C4000387A8B /* ViewController.m in Sources */,
-				2E81FC891C5B9C4000387A8B /* AppDelegate.m in Sources */,
+				2E81FCC01C5B9E6C00387A8B /* ViewController.m in Sources */,
+				2E81FCD01C5BA0AD00387A8B /* FJColor.m in Sources */,
+				2E81FCCD1C5BA05500387A8B /* UINavigationItem+flexible.m in Sources */,
 				2E81FC861C5B9C4000387A8B /* main.m in Sources */,
+				2E81FCC11C5B9E6C00387A8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +574,7 @@
 				2E81FCB01C5B9C4000387A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E81FCB11C5B9C4000387A8B /* Build configuration list for PBXNativeTarget "FJKitTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +583,7 @@
 				2E81FCB31C5B9C4000387A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E81FCB41C5B9C4000387A8B /* Build configuration list for PBXNativeTarget "FJKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +592,7 @@
 				2E81FCB61C5B9C4000387A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
